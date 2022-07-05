@@ -1,0 +1,59 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+}
+
+.top-banner {
+    background-image: url(donate-today-main/images/donation13.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 900px;
+    padding-top: 20px;
+}
+
+.first-center-text {
+    text-align: center;
+    font-weight: 700;
+    color: white;
+    font-size: 80px;
+    padding-top: 100px;
+
+}
+
+.top-paragraph {
+    font-size: 20px;
+    color: white;
+    text-align: center;
+    font-weight: 300;
+
+}
+
+.button {
+    text-decoration: none;
+    color: white;
+    background-color: rgb(238, 93, 93);
+    padding: 20px 30px;
+    border-radius: 5px;
+    font-weight: 700;
+    font-size: 25px;
+}
+
+.button-center {
+    padding-left: 45%;
+    padding-top: 80px;
+}
+
+.second-center-text {
+    text-align: center;
+    font-weight: 700;
+    color: black;
+    font-size: 80px;
+    padding-top: 100px;
+}
+
+.middel-paragraph {
+    font-size: 20px;
+    color: gray;
+    text-align: center;
+    font-weight: 300;
+}
