@@ -56,9 +56,106 @@ body {
     color: gray;
     text-align: center;
     font-weight: 300;
+    margin-bottom: 5%;
 }
 
 .flex-container {
     display: flex;
     justify-content: center;
+}
+
+.child {
+    width: 180px;
+    height: 160px;
+    background-color: rgb(250, 240, 240);
+    margin-right: 22px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    font-size: 30px;
+    font-weight: 900;
+    color: rgb(101, 101, 101);
+}
+
+#child-two {
+    width: 180px;
+    height: 160px;
+    background-color: rgb(250, 240, 240);
+    margin-right: 22px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    font-size: 30px;
+    color: rgb(244, 96, 96);
+    border: 3px solid red;
+}
+
+#input-field {
+    width: 80%;
+    margin-left: 9%;
+    text-align: center;
+    padding: 10px;
+    border: 0px;
+    border-bottom: 2px solid gray;
+    outline: none;
+    font-size: 30px;
+}
+
+.input {
+    width: 60%;
+    margin: 50px auto;
+}
+
+.bottom-center-text {
+    text-align: center;
+    font-weight: 700;
+    color: black;
+    font-size: 80px;
+    padding-top: 100px;
+}
+
+.bottom-paragraph {
+    font-size: 20px;
+    color: gray;
+    text-align: center;
+    font-weight: 300;
+    margin-bottom: 5%;
+}
+
+.card {
+    width: 30%;
+    background-color: rgba(79, 157, 166, 15%);
+    margin-right: 22px;
+    border-radius: 5px;
+    margin-bottom: 50px;
+}
+
+.card-image {
+    margin-top: 15%;
+    margin-left: 10%;
+}
+
+.card-title {
+    margin-left: 10%;
+}
+
+.card-description {
+    margin-left: 10%;
+    margin-bottom: 30%;
+    padding-right: 5%;
+    font-size: 18px;
+    color: #707070;
+}
+
+.donate-plan {
+    display: flex;
+    width: 90%;
+    margin-left: auto;
+
+}
+
+#card-color {
+    background-color: rgba(255, 244, 214, 83%);
 }
